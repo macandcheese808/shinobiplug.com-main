@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/sidenav.css" />
-    <link rel="stylesheet" href="css/animation.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="assets/favicon/favicon-32x32.png" type="image/x-icon">
     <script defer src="js/main.js"></script>
@@ -43,7 +42,7 @@
                 <li>
                     <a href="shop.html">Shop</a>
                 </li>
-            
+
                 <img src="./assets/logos/pngs/shinobiplug-white.png" alt="" class="brandlogo" />
                 
                 <li>
@@ -58,7 +57,7 @@
             </ul>
         </nav>
     </header>
-    
+
     <div class="mobile">
         <span class="hamburger" onclick="openNav()">&#9776;</span>
         <img src="./assets/logos/pngs/shinobiplug-white.png" alt="" class="mobile-brandlogo" />
@@ -73,27 +72,23 @@
         </div>
     </div>
 
-    <div class="shop-layout">
-        <div class="shop-item floating">
-            <div class="shop-image" onclick="window.location.href='tee.html'" style="cursor: pointer;">
-                <img src="./assets/shop/shinobi-tee.png" alt="" class="shop-image">
+    <div class="container-fluid max-settings">
+        <section class="single-product">
+            <div class="section-center single-product-center">
+              <img src="./assets/shop/shinobi-tee.png" class="single-product-img img" alt="" style="background-color: black; border-radius: 20px;">
+              <article class="single-product-info">
+                <div>
+                  <h2 class="single-product-title" style="text-decoration: underline;">Shinobi Tee White Edition</h2>
+                  <p class="single-product-company text-slanted">Regular Fit</p>
+                  <p class="single-product-company text-slanted">Sizes: XS | S | M | XL | XXL</p>
+                  <p class="single-product-price">34,99€</p>
+                  <button class="addtocart" data-sellix-product="643213b8b878f" style="margin-top: 20px">
+                    Purchase
+                  </button>
+                </div>
+              </article>
             </div>
-            <div class="shop-title">Shinobi Tee</div>
-            <div class="shop-placeholder-one">
-                <span>34,99€</span>
-                <button data-sellix-product="643213b8b878f">Order</button>
-            </div>
-        </div>
-        <div class="shop-item floating">
-            <div class="shop-image" onclick="window.location.href='hoodie.html'" style="cursor: pointer;">
-                <img src="./assets/shop/shinobi-hoodie.png" alt="" class="shop-image">
-            </div>
-            <div class="shop-title">Shinobi Hoodie</div>
-            <div class="shop-placeholder-one">
-                <span>49,99€</span>
-                <button data-sellix-product="643213c28642b">Order</button>
-            </div>
-        </div>
+        </section>
     </div>
 
      <footer>
