@@ -505,7 +505,8 @@ header nav ul {
     justify-content: center;
     align-items: center;
 
-    background-color: black;   
+    background-color: black;
+    overflow: hidden;
 }
 
 .loader {
