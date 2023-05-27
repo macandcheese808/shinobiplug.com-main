@@ -1,6 +1,12 @@
 console.log("Welcome!");
 console.log('Side Made By shinobiplug');
 
+var loader = document.getElementById('preloader');
+
+window.addEventListener('load', function() {
+    loader.style.display = 'none'
+})
+
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
